@@ -2,11 +2,10 @@ package jocture.factory.factory;
 
 import jocture.factory.client.LoginType;
 import jocture.factory.service.LoginService;
-import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-@Component
+// @Component
 public class LoginServiceFactoryV3 implements LoginServiceFactory {
 
     private final List<LoginService> loginServices;
